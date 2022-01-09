@@ -7,6 +7,10 @@ sudo apt full-upgrade
 echo "Installing gnome-tweaks"
 sudo apt install gnome-tweaks
 
+# Adding gnome-extension for chrome and firefox
+sudo apt install chrome-gnome-shell
+sudo apt install firefox-gnome-shell
+
 # install snap
 echo "Installing snap"
 sudo apt install snapd
