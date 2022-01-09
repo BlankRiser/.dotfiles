@@ -17,3 +17,11 @@ chmod +x install.sh
 :wq #saves the file
 :so % #source init.vim
 ```
+
+## Creating Git store
+Using credential helper to temporarily save credentials for 900 seconds(15min)
+Use this method if not using ssh
+```
+git config --global credential.helper 'cache --timeout=36000'
+```
+
