@@ -13,7 +13,7 @@ sudo apt install snapd
 
 # install snap apps
 echo "Installing snap apps"
-sudo snap install beekeeper-studio spotify vlc postman dbeaver-ce
+sudo snap install beekeeper-studio spotify vlc postman dbeaver-ce htop
 sudo snap install code --classic
 sudo snap install notable --classic
 sudo snap install node --classic
