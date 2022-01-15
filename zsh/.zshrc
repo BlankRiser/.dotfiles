@@ -22,7 +22,8 @@ alias vim='nvim'
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey "\e[3~" delete-char 
-
+bindkey "\e[1;6D" beginning-of-line
+bindkey "\e[1;6C" end-of-line
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
