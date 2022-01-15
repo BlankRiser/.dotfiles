@@ -11,6 +11,15 @@ sudo apt install gnome-tweaks
 sudo apt install chrome-gnome-shell
 sudo apt install firefox-gnome-shell
 
+# Install Laptop Power Saving Tools
+echo "Installing laptop-mode-tools"
+sudo apt install laptop-mode-tools
+
+# Install useful packages
+echo "Installing Java, Wait for the prompt"
+sudo apt-get install openjdk-11-jdk
+
+
 # install snap
 echo "Installing snap"
 sudo apt install snapd

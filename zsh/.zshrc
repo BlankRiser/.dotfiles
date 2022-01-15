@@ -18,5 +18,9 @@ source ~/.zsh_plugins.sh
 alias ls='ls -al'
 alias vim='nvim'
 
+# key bindings
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
