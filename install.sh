@@ -23,6 +23,7 @@ sudo apt-get install openjdk-11-jdk
 # install snap
 echo "Installing snap"
 sudo apt install snapd
+sudo snap install snap-store
 
 # install snap apps
 echo "Installing snap apps"
