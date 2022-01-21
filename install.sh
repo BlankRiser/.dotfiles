@@ -19,6 +19,10 @@ sudo apt install laptop-mode-tools
 echo "Installing Java, Wait for the prompt"
 sudo apt-get install openjdk-11-jdk
 
+# Install Gnome Terminal themes from Gogh
+echo "Installing Gogh Gnome terminal themes: 20 64 131 136 138 144"
+bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+
 
 # install snap
 echo "Installing snap"
