@@ -24,4 +24,8 @@ Use this method if not using ssh
 ```
 git config --global credential.helper 'cache --timeout=36000'
 ```
+## Tweaks
+Some tweaks for a better experience on Pop OS
 
+### Title window not showing for VS Code
+```Extensions -> Pop Shell Setting -> Enabler Show Window Titles```
