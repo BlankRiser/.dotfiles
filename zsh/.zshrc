@@ -1,6 +1,11 @@
 autoload -Uz compinit
 compinit
 
+# Setting for the new UTF-8 terminal support in Lion
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -15,7 +20,7 @@ if [ -e /home/otheos/.nix-profile/etc/profile.d/nix.sh ]; then . /home/otheos/.n
 source ~/.zsh_plugins.sh
 
 # aliases
-alias ls='ls -al'
+alias ls='ls -al' # use '\' and original command to not use alias, '\ls' will run ls
 alias vim='nvim'
 
 # key bindings

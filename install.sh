@@ -77,4 +77,7 @@ antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 # Install extrac media codecs
 sudo apt-get install ubuntu-restricted-extras
 
-
+# Install Rust
+echo "Installing Rust"
+sudo snap install rustup
+sudo apt  install cargo
