@@ -65,3 +65,7 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 # To enable them again
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
+
+## Errors
+
+- [dash to dock icons disappear after sleep mode](https://askubuntu.com/questions/1370884/why-do-dash-to-dock-icons-disappear-after-sleep-mode-ubuntu-21-10)
