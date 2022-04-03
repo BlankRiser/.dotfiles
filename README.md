@@ -66,6 +66,19 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
 
-## Errors
+### Mounting NTFS drives
+Use [ntfs-3g](https://github.com/tuxera/ntfs-3g) to fix the drive after unmounting it.
+```
+# Unmount the drive before running the command below
+sudo ntfsfix /dev/sda1
+```
+If you still are not able to write on that disk, use ntfs-3g to mount the drive for verbose error
+```
+mount -t ntfs-3g /dev/sda1 /mnt/windows
+# or
+ntfs-3g /dev/sda1 /mnt/windows
+```
 
-- [dash to dock icons disappear after sleep mode](https://askubuntu.com/questions/1370884/why-do-dash-to-dock-icons-disappear-after-sleep-mode-ubuntu-21-10)
+### Errors
+
+- [dash to dock icons disappear after sleep mode](https://askubuntu.com/questions/1370884/why-do-dash-to-dock-icons-disappear-after-sleep-mode-ubuntu-21-10) : Uninstall Gnome Tweaks
